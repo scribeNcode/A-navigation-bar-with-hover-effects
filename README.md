@@ -1,4 +1,4 @@
-# A-navigation-bar-with-hover-effects
+# A-navigation-bar-with-hover-effects (laptop view ; not mobile responsive)
 A mini project for practicing the following skills :
 - Element, Class, ID selectors
 - Grouping selectors
