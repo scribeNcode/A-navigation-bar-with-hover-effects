@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* style head using element selector (header) */
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    /* background-color: green; */
+       margin-top: 1rem;
+}
+
+/* using class selector  */
+.site-navigations{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    /* background-color: red; */
+}
+
+/* using id selector */
+#Sign-up-btn{
+    background-color: rgb(233,67,57);
+    color: white;
+}
+
+#login{
+    background-color: transparent;
+}
+
+button{
+    border: 0;
+    padding: 1em 1.5em;
+    border-radius: 30px;
+}
+
+
+
+/* Pseudo-classes (:hover, :focus, :nth-child)
+Pseudo-elements (::before, ::after) */
+
+ul li:nth-child(4)::after{
+    content: url(/A-navigation-bar-with-hover-effects/images/Vector\ 1.png);
+    display: inline-block;
+    
+    margin-left: 4px;
+}
+
+.hover:hover{
+background-color: aquamarine;
+cursor: pointer;
+}
+
+#login:hover, #Sign-up-btn:hover{
+    background-color: aquamarine;
+    color: rgb(233,67,57);
+}
+
+
+
